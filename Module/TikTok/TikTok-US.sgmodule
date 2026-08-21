@@ -13,7 +13,7 @@ RULE-SET,https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/T
 
 #去水印
 [Script]
-TikTok去水印 = type=http-response,pattern=https?:\/\/.*\.tiktokv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list|aweme\/favorite),script-path=https://github.com/yuhangrao/Surge/raw/master/Module/TikTok/Dewatermark.js, requires-body=true, timeout=10
+TikTok去水印 = type=http-response,pattern=https?:\/\/.*\.tiktokv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list|aweme\/favorite),script-path=https://github.com/Siriusrry/Surge/raw/master/Module/TikTok/Dewatermark.js, requires-body=true, timeout=10
 
 [MITM]
 hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
